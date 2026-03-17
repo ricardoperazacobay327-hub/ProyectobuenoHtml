@@ -1,0 +1,174 @@
+﻿<html lang="es">
+<head meta charset="UTF-8">
+    <title>Menu de animales</title>
+    <style>
+       
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: #8080E6;
+            display: flex; /
+        }
+
+        nav > ul > li {
+            position: relative;
+            flex: 1;
+            text-align: center;
+        }
+
+        nav a {
+            display: block;
+            padding: 15px;
+            color: white;
+            text-decoration: none;
+            font-family: Baskerville Old Face, sans-serif;
+            font-weight: bold;
+        }
+
+        nav li:hover {
+            background-color: #c41e3a;
+        }
+
+        
+        .dropdown {
+            display: none;
+            position: absolute;
+            background-color: #ecf0f1;
+            width: 100%;
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown li a {
+            color: #333;
+            font-weight: normal;
+            border-bottom: 1px solid #000;
+        }
+
+        .dropdown li a:hover {
+            background-color: #bdc3c7;
+        }
+
+        
+        nav > ul > li:hover .dropdown {
+            display: block;
+        }
+    </style>
+<style>
+ .img-galle{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    aling-items: center;
+    justify-content: center;
+}
+.g-img{
+    padding: 0 10px 20px;
+}
+img:hover{
+    opacity: .10;
+    transition:.5s;
+}
+</style>
+</head>
+<body bgcolor="white">
+
+<p>
+<hr align="left" width="100%" Size="10" color="#b32821">
+
+<p class="b2">
+<marquee bgcolor="#8080E6" behavior="alternate">
+MENU DE ANIMALES
+</marquee>
+</p>
+
+
+<nav>
+    <ul>
+        <li>
+            <a href="#">Peces</a>
+            <ul class="dropdown">
+                <li><a href="https://www.fishipedia.es/pez/carassius-auratus">Pez dorado</a></li>
+                <li><a href="https://www.fishipedia.es/pez/poecilia-reticulata">Guppy</a></li>
+                <li><a href="https://www.fishipedia.es/pez/symphysodon-aequifasciatus">Pez Disco</a></li>
+                <li><a href="https://www.fishipedia.es/pez/amphiprion-ocellaris">Pez payaso</a></li>
+               <li><a href="https://www.fishipedia.es/pez/pterophyllum-scalare">Pez Angel</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="#">Mamiferos</a>
+            <ul class="dropdown">
+                <li><a href="Tigre.html">Tigre</a></li>
+                <li><a href="Jirafa.html">Jirafa</a></li>
+                <li><a href="Capibara.html">Capibara</a></li>
+               <li><a href="Elefante.html">Elefante</a></li>
+              <li><a href="Hipopotamo.html">Hipopotamo</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="Anfibios.html">Anfibios</a>
+            <ul class="dropdown">
+                <li><a href="Anfibios.html">Rana</a></li>
+                <li><a href="Anfibios.html">Sapo</a></li>
+                <li><a href="Anfibios.html">Salamandra</a></li>
+                <li><a href="Anfibios.html">Triton</a></li>
+                <li><a href="Anfibios.html">Ajolote</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="#">Aves</a>
+            <ul class="dropdown">
+                <li><a href="https://www.nationalgeographic.com/animals/birds/facts/greater-flamingo">Flamenco</a></li>
+                <li><a href="https://www.nationalgeographic.com/animals/birds/facts/penguins-1">Pingüino</a></li>
+                <li><a href="https://www.nationalgeographic.com/animals/birds/facts/bald-eagle">Aguila Calva</a></li>
+		<li><a href="https://www.nationalgeographic.com/animals/birds/facts/toco-toucan">Tucan Toco</a></li>
+		<li><a href="https://www.nationalgeographic.com/animals/birds/facts/resplendent-quetzal">Quetzal resplandeciente</a></li>        
+            </ul>
+        </li>
+
+        <li>
+            <a href="#">Reptiles</a>
+            <ul class="dropdown">
+                <li><a href="anaconda.html">Anaconda</a></li>
+                <li><a href="tortuga galapagos.html">Tortuga galapagos</a></li>
+                <li><a href="dragon de komodo.html">Dragon de komodo</a></li>
+                <li><a href="cocodrilo.html">Cocodrilo del Nilo</a></li>
+                <li><a href="camaleon.html">Camaleon</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+<p>
+  <div class=wrapper>
+    <div class="img-galle">
+      <div class="g-img"><img src="anaconda.jpg" width="200" height="200"/></div>
+      <div class="g-img"><img src="Elefante.jpg" width="200" height="200" /></div>
+      <div class="g-img"><img src="Pinguino.jpg" width="200" height="200" /></div>
+      <div class="g-img"><img src="Rana.jpg" width="200" height="200" /></div>
+      <div class="g-img"><img src="peces.jpg" width="200" height="200" /></div>
+      <div class="g-img"><img src="colibri.jpg" width="200" height="200" /></div>
+      <div class="g-img"><img src="tigre.jpg" width="200" height="200" /></div>
+      <div class="g-img"><img src="reptil.jpg" width="200" height="200" /></div>
+      <div class="g-img"><img src="aguila.jpg" width="200" height="200" /></div>
+      <div class="g-img"><img src="dorado.jpg" width="200" height="200" /></div>
+      <div class="g-img"><img src="camaleon.jpg" width="200" height="200" /></div>
+      <div class="g-img"><img src="komodo.jpg" width="200" height="200" /></div>
+    </div>
+
+  </div>
+<p style="color: #FFFFFF;"><center><h3>Integrantes:</h3>
+<h3>Canul Puc Cristopher Gabriel</h3>
+<h3>Duran Aguilar Emery Josselin</h3>
+<h3>Ek Ek Miguel Angel</h3>
+<h3>Peraza Ruelas Ricardo Adrian</h3>
+<h3>Poot Osorio Edwin Isaias</h3></center></p>
+
+<center><audio src="Pueblo Arcilla.mp3" controls></center>
+
+
+</body>
+</html>
